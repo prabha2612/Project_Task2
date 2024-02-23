@@ -12,7 +12,7 @@ function App() {
     setStatus("Converting...");
     try {
       const response = await axios.post(
-        "http://localhost:4000/convertToPdf",
+        "http://localhost:3001/convertToPdf",
         { url },
         { responseType: "blob" }
       );
