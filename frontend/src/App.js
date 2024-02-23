@@ -36,6 +36,7 @@ function App() {
     a.click();
     URL.revokeObjectURL(pdfUrl);
     setUrl("");
+    setStatus("Downloaded successfully");
   };
 
   return (
